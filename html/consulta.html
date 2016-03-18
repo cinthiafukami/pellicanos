@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Padrão de telas</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <header>
+      <div class="logo"><img src="img/logo.png" alt=""></div>
+      <div class="header-menu">
+        <div class="alertas"><a href="#"><span class="glyphicon glyphicon-bell" aria-hidden="true"></span> Alertas <span class="badge">42</span></a></div>
+        <div class="user"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> &nbsp;Administrador &nbsp;<span class="glyphicon glyphicon-menu-down" style="color: #999; font-size: 10px" aria-hidden="true"></span></div>
+      </div>
+    </header>
+  
+
+    <div class="row">
+      <div class="col-sm-2 menu">
+        <ul class="menu-principal">
+          <a href=""><li><span class="glyphicon glyphicon-home" aria-hidden="true"></span> &nbsp;Home</li></a>
+          <a href=""><li><span class="glyphicon glyphicon-transfer" aria-hidden="true"></span> &nbsp;Contas a pagar</li></a>
+          <a href=""><li><span class="glyphicon glyphicon-user" aria-hidden="true"></span> &nbsp;Fornecedores</li></a>
+          <a href=""><li><span class="glyphicon glyphicon-piggy-bank" aria-hidden="true"></span> &nbsp;Contas bancárias</li></a>
+        </ul>
+      </div>
+
+      <div class="col-sm-10">
+        <div class="conteudo">
+          <h1>Título 1</h1>
+
+          <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Título do diálogo</h4>
+      </div>
+      <div class="modal-body">
+        Tem certeza que gostaria de fazer isto? Esta ação não poderá ser desfeita.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary">Sim, tenho certeza</button>
+      </div>
+    </div>
+  </div>
+</div>
+          
+         
+
+          <form class="form-inline">
+            <div class="form-group">
+              <select class="form-control">
+                <option>Filtros &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-default">Filtrar</button>&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <input type="" class="form-control" id="" placeholder="Pesquisar por código"><button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+          </form>
+
+          <br>
+
+          <button type="button" class="btn btn-primary"> Criar novo</button>
+
+          <button type="button" class="btn btn-danger"> Excluir</button>
+
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th><input type="checkbox"></th>
+                <th><span class="glyphicon glyphicon-sort" aria-hidden="true"></span> Primeira coluna </th>
+                <th><span class="glyphicon glyphicon-sort" aria-hidden="true"></span> Segunda coluna</th>
+                <th><span class="glyphicon glyphicon-sort" aria-hidden="true"></span> Terceira coluna</th>
+              </tr>
+            </thead>
+            
+            <tr>
+              <td><input type="checkbox"></td>
+              <td>a</td>
+              <td>a</td>
+              <td>a</td>
+            </tr>
+            <tr>
+              <td><input type="checkbox"></td>
+              <td>a</td>
+              <td>a</td>
+              <td>a</td>
+            </tr>
+            <tr>
+              <td><input type="checkbox"></td>
+              <td>a</td>
+              <td>a</td>
+              <td>a</td>
+            </tr>
+            <tr>
+              <td><input type="checkbox"></td>
+              <td>a</td>
+              <td>a</td>
+              <td>a</td>
+            </tr>
+            <tr>
+              <td><input type="checkbox"></td>
+              <td>a</td>
+              <td>a</td>
+              <td>a</td>
+            </tr>
+            <tr>
+              <td><input type="checkbox"></td>
+              <td>a</td>
+              <td>a</td>
+              <td>a</td>
+            </tr>
+            <tr>
+              <td><input type="checkbox"></td>
+              <td>a</td>
+              <td>a</td>
+              <td>a</td>
+            </tr>
+            <tr>
+              <td><input type="checkbox"></td>
+              <td>a</td>
+              <td>a</td>
+              <td>a</td>
+            </tr>
+          </table>
+
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+    </div>
+
+
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

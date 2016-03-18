@@ -1,0 +1,97 @@
+html{
+	height: 100%
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: helvetica, arial;
+	color: #333;
+}
+
+h1{
+	font-size: 30px;
+}
+
+h2{
+	font-size: 28px;
+}
+
+body{
+	height: 100%;
+	background: #F1F1F1
+}
+
+header{
+	background: #32373C;
+	height: 40px;
+	padding: 0 8px;
+	color: #fff;
+	font-size: 14px
+}
+
+header img{
+	width: 100px;
+	position: absolute
+}
+
+.logo{
+	float: left;
+	padding: 10px 0;
+}
+
+.header-menu{
+	float: right;
+}
+
+.header-menu div{
+	display: inline-block;
+	padding: 10px;
+	border-left: 1px solid #666;
+	cursor: pointer;
+	margin-left: -5px;
+}
+ 
+.header-menu div:hover{
+	background: #666
+}
+
+.alertas a{
+	color: #fff;
+}
+
+.alertas a:hover{
+	text-decoration: none;
+}
+
+.menu{
+	background: #23282D;
+	padding-right: 0;
+	color: #fff;
+}
+
+.menu-principal{
+	padding: 0;
+	margin: 0
+}
+
+.menu-principal li{
+	list-style: none;
+	border-bottom: 1px solid #32373C;
+	padding: 12px;
+}
+
+.menu-principal a{
+	color: #fff
+}
+
+.menu-principal a:hover{
+	text-decoration: none
+}
+
+.menu-principal li:hover{
+	background: #000
+}
+
+.conteudo{
+	padding: 0 25px 0 15px;
+}
+
