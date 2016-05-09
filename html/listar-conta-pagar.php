@@ -1,37 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Padrão de telas</title>
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-
-  </head>
-  <body>
-
-    <header>
-      <div class="logo"><img src="img/logo.png" alt=""></div>
-      <div class="header-menu">
-        <div class="alertas"><span class="glyphicon glyphicon-bell" aria-hidden="true"></span></div>
-        <div class="user"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> &nbsp;Administrador &nbsp;<span class="glyphicon glyphicon-menu-down" style="color: #999; font-size: 10px" aria-hidden="true"></span></div>
-      </div>
-    </header>
-  
-
-    <div class="row">
-      <div class="col-sm-2 menu">
-        <ul class="menu-principal">
-          <a href=""><li><span class="glyphicon glyphicon-home" aria-hidden="true"></span> &nbsp;Home</li></a>
-          <a href=""><li><span class="glyphicon glyphicon-transfer" aria-hidden="true"></span> &nbsp;Contas a pagar</li></a>
-          <a href=""><li><span class="glyphicon glyphicon-user" aria-hidden="true"></span> &nbsp;Fornecedores</li></a>
-          <a href=""><li><span class="glyphicon glyphicon-piggy-bank" aria-hidden="true"></span> &nbsp;Contas bancárias</li></a>
-        </ul>
-      </div>
+<?php include "header.php" ?>
+<?php include "sidebar.php" ?>
 
       <div class="col-sm-10">
         <div class="row">
@@ -76,27 +44,27 @@
                 &nbsp;&nbsp;<button type="submit" class="btn btn-default">Filtrar</button>&nbsp;&nbsp;&nbsp;&nbsp;
 
                 <input type="" class="form-control" id="" placeholder="Pesquisar por código"><button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
-
-                <button type="submit" class="btn btn-default" style="float: right" ><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Gerar relatório</button>
+  
               </form>
+
+              <a href="/pellicanos/html/relatorio-contas-pagar.pdf" target="_blank"><button class="btn btn-default" style="float: right" ><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Gerar relatório</button></a>
 
               <br>
 
-              <button type="button" class="btn btn-primary"> Criar novo</button>
+              <a href="/pellicanos/html/cadastro-conta-pagar.php"><button type="button" class="btn btn-primary"> Criar novo</button></a>
               <button type="button" class="btn btn-default"> Agendar</button>
               <button type="button" class="btn btn-default"> Simular</button>
               <button type="button" class="btn btn-default"> Pagar</button>
               <button type="button" class="btn btn-default"> Criar alerta</button>
-              <button type="button" class="btn btn-danger" disabled> Excluir</button><br><br>
             </div>
           </div>
+          <br>
 
           <div class="row">
             <div class="col-sm-12">
             <table class="table table-striped table-hover">
               <thead>
                 <tr>
-                  <th><input type="checkbox"></th>
                   <th><span class="glyphicon glyphicon-sort" aria-hidden="true"></span> Código</th>
                   <th><span class="glyphicon glyphicon-sort" aria-hidden="true"></span> Descrição</th>
                   <th><span class="glyphicon glyphicon-sort" aria-hidden="true"></span> Valor</th>
@@ -107,17 +75,21 @@
                 </tr>
               </thead>
               <tr>
-                <td><input type="checkbox"></td>
                 <td>001</td>
                 <td>Água</td>
                 <td>R$53,00</td>
                 <td>1</td>
                 <td>31/03/2016</td>
                 <td style="color: red">Não pago</td>
-                <td><span class="glyphicon glyphicon-edit" aria-hidden="true" title="editar"></span> <span class="glyphicon glyphicon-book" aria-hidden="true" title="agendar"></span> <span class="glyphicon glyphicon-usd" aria-hidden="true" title="pagar"></span> <span class="glyphicon glyphicon-bell" aria-hidden="true" title="criar alerta"></span> <span class="glyphicon glyphicon-trash" aria-hidden="true" title="excluir"></span></td>
+                <td>
+                  <a href="/pellicanos/html/editar-conta-pagar.php"><span class="glyphicon glyphicon-edit" aria-hidden="true" title="editar"></span></a>
+                  <span class="glyphicon glyphicon-book" aria-hidden="true" title="agendar"></span> 
+                  <span class="glyphicon glyphicon-usd" aria-hidden="true" title="pagar"></span> 
+                  <span class="glyphicon glyphicon-bell" aria-hidden="true" title="criar alerta"></span> 
+                  <span class="glyphicon glyphicon-trash" aria-hidden="true" title="excluir"></span>
+                </td>
               </tr>
               <tr>
-                <td><input type="checkbox"></td>
                 <td>002</td>
                 <td>Água</td>
                 <td>R$53,00</td>
@@ -127,7 +99,6 @@
                 <td><span class="glyphicon glyphicon-edit" aria-hidden="true" title="editar"></span> <span class="glyphicon glyphicon-book" aria-hidden="true" title="agendar"></span> <span class="glyphicon glyphicon-usd" aria-hidden="true" title="pagar"></span> <span class="glyphicon glyphicon-bell" aria-hidden="true" title="criar alerta"></span> <span class="glyphicon glyphicon-trash" aria-hidden="true" title="excluir"></span></td>
               </tr>
               <tr>
-                <td><input type="checkbox"></td>
                 <td>003</td>
                 <td>Água</td>
                 <td>R$53,00</td>
@@ -137,7 +108,6 @@
                 <td><span class="glyphicon glyphicon-edit" aria-hidden="true" title="editar"></span> <span class="glyphicon glyphicon-book" aria-hidden="true" title="agendar"></span> <span class="glyphicon glyphicon-usd" aria-hidden="true" title="pagar"></span> <span class="glyphicon glyphicon-bell" aria-hidden="true" title="criar alerta"></span> <span class="glyphicon glyphicon-trash" aria-hidden="true" title="excluir"></span></td>
               </tr>
               <tr>
-                <td><input type="checkbox"></td>
                 <td>004</td>
                 <td>Água</td>
                 <td>R$53,00</td>
@@ -147,7 +117,6 @@
                 <td><span class="glyphicon glyphicon-edit" aria-hidden="true" title="editar"></span> <span class="glyphicon glyphicon-book" aria-hidden="true" title="agendar"></span> <span class="glyphicon glyphicon-usd" aria-hidden="true" title="pagar"></span> <span class="glyphicon glyphicon-bell" aria-hidden="true" title="criar alerta"></span> <span class="glyphicon glyphicon-trash" aria-hidden="true" title="excluir"></span></td>
               </tr>
               <tr>
-                <td><input type="checkbox"></td>
                 <td>005</td>
                 <td>Água</td>
                 <td>R$53,00</td>
@@ -157,7 +126,6 @@
                 <td><span class="glyphicon glyphicon-edit" aria-hidden="true" title="editar"></span>  <span class="glyphicon glyphicon-trash" aria-hidden="true" title="excluir"></span></td>
               </tr>
               <tr>
-                <td><input type="checkbox"></td>
                 <td>123</td>
                 <td>100 un. Cola Cola lata </td>
                 <td>R$84,90</td>
@@ -167,7 +135,6 @@
                 <td><span class="glyphicon glyphicon-edit" aria-hidden="true" title="editar"></span> <span class="glyphicon glyphicon-trash" aria-hidden="true" title="excluir"></span></td>
               </tr>
               <tr>
-                <td><input type="checkbox"></td>
                 <td>124</td>
                 <td>100 un. Cola Cola lata </td>
                 <td>R$84,90</td>
@@ -187,9 +154,4 @@
       </div>
     </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
-</html>
+<?php include "footer.php" ?>
