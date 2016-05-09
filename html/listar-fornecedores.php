@@ -22,10 +22,29 @@
         </form>
 
         <br>
+        
+        <!-- Pop up excluir -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Excluir fornecedor "Bebidas Wilson Ltda."</h4>
+              </div>
+              <div class="modal-body">
+                Tem certeza que deseja excluir registro permanentemente?
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary">Confirmar</button>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <a href="/pellicanos/html/cadastro-fornecedor.php"><button type="button" class="btn btn-success"> Criar novo</button></a>
         <a href="/pellicanos/html/editar-fornecedor.php"><button type="button" class="btn btn-primary"> Editar</button></a>
-        <button type="button" class="btn btn-danger"> Excluir</button><br><br>
+        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal"> Excluir</button><br><br>
       </div>
     </div>
 
