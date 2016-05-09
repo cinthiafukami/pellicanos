@@ -24,7 +24,7 @@
             <div class="col-sm-4"><label for="">Saldo inicial</label><input class="form-control" type="text" placeholder="R$0,00"></div>
             <div class="col-sm-3"><label for="">Tipo da conta: </label><br>
             <select name="" id="" class="form-control">
-              <option value="">Selecionar</option>
+              <option value="">Poupança</option>
             </select>
             </div>
           </div>
