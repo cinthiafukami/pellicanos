@@ -7,7 +7,7 @@
 
           <form class="form-inline">
             <div class="form-group">
-              <label for="exampleInputEmail2">Razão social</label><br>
+              <label for="exampleInputEmail2">Razão social<span style="color: red">*</span></label><br>
               <input type="email" class="form-control" id="exampleInputEmail2" placeholder="" size="70">
             </div>
             <div class="form-group">
@@ -25,42 +25,43 @@
               <label for="exampleInputEmail2">Insc. estadual / RG</label><br>
               <input type="email" class="form-control" id="exampleInputEmail2" placeholder="" size="25">
             </div>
-          
           </form>
           <br>
 
           <form class="form-inline">
             <div class="form-group">
-              <label for="exampleInputName2">Logradouro</label><br>
+              <label for="exampleInputName2">Logradouro<span style="color: red">*</span></label><br>
               <input type="text" class="form-control" id="exampleInputName2" placeholder="" size="55">
             </div>
             <div class="form-group">
-              <label for="exampleInputEmail2">Número</label><br>
+              <label for="exampleInputEmail2">Número<span style="color: red">*</span></label><br>
               <input type="email" class="form-control" id="exampleInputEmail2" placeholder="" size="10">
             </div>
             <div class="form-group">
               <label for="exampleInputEmail2">Complemento</label><br>
               <input type="email" class="form-control" id="exampleInputEmail2" placeholder="" size="25">
             </div>
-          
           </form>
           <br>
 
           <form class="form-inline">
             <div class="form-group">
-              <label for="exampleInputName2">Bairro</label><br>
+              <label for="exampleInputName2">Bairro<span style="color: red">*</span></label><br>
               <input type="text" class="form-control" id="exampleInputName2" placeholder="" size="30">
             </div>
             <div class="form-group">
-              <label for="exampleInputEmail2">Cidade</label><br>
+              <label for="exampleInputEmail2">Cidade<span style="color: red">*</span></label><br>
               <input type="email" class="form-control" id="exampleInputEmail2" placeholder="" size="35">
             </div>
             <div class="form-group">
-              <label for="exampleInputEmail2">Estado</label><br>
-              <input type="email" class="form-control" id="exampleInputEmail2" placeholder="" size="5">
+              <label for="exampleInputEmail2">Estado<span style="color: red">*</span></label><br>
+              <select name="" id="" class="form-control">
+                <option value="SP">SP&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                <option value="">RJ</option>
+              </select>
             </div>
             <div class="form-group">
-              <label for="exampleInputEmail2">CEP</label><br>
+              <label for="exampleInputEmail2">CEP<span style="color: red">*</span></label><br>
               <input type="email" class="form-control" id="exampleInputEmail2" placeholder="00.000-000" size="15">
             </div>
           </form><br>
@@ -91,8 +92,11 @@
               <input type="email" class="form-control" id="exampleInputEmail2" placeholder="www.exemplo.com.br" size="40">
             </div>
             <div class="form-group">
-              <label for="exampleInputEmail2">Data de cadastro</label><br>
-              <input type="email" class="form-control" id="exampleInputEmail2" placeholder="dd/mm/aaaa" size="15">
+              <label for="exampleInputEmail2">Status</label><br>
+              <select name="" id="" class="form-control">
+                <option value="">Ativo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                <option value="">Inativo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+              </select>
             </div>
           </form><br>
 

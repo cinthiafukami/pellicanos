@@ -32,6 +32,7 @@
 	  <a href="/pellicanos/html/index.php"><button class="btn btn-success form-control">Entrar</button></a><br><br>
 
 	  <a href="">Esqueceu a senha?</a>
+    <a href="">Cadastrar novo usuário</a>
     </div>
 
 <?php include "footer.php" ?>

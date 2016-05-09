@@ -23,9 +23,9 @@
 
         <br>
 
-        <a href="/pellicanos/html/cadastro-fornecedor.php"><button type="button" class="btn btn-primary"> Criar novo</button></a>
-
-        <button type="button" class="btn btn-danger" disabled> Excluir</button><br><br>
+        <a href="/pellicanos/html/cadastro-fornecedor.php"><button type="button" class="btn btn-success"> Criar novo</button></a>
+        <a href="/pellicanos/html/editar-fornecedor.php"><button type="button" class="btn btn-primary"> Editar</button></a>
+        <button type="button" class="btn btn-danger"> Excluir</button><br><br>
       </div>
     </div>
 
@@ -35,49 +35,39 @@
         <thead>
           <tr>
             <th><input type="checkbox"></th>
-            <th><span class="glyphicon glyphicon-sort" aria-hidden="true"></span> Código</th>
-            <th><span class="glyphicon glyphicon-sort" aria-hidden="true"></span> Razão Social</th>
             <th><span class="glyphicon glyphicon-sort" aria-hidden="true"></span> CNPJ</th>
+            <th><span class="glyphicon glyphicon-sort" aria-hidden="true"></span> Razão Social</th>
             <th>Telefone</th>
             <th><span class="glyphicon glyphicon-sort" aria-hidden="true"></span> Status</th>
-            <th>Ações</th>
           </tr>
         </thead>
         <tr>
           <td><input type="checkbox"></td>
-          <td>001</td>
-          <td>BEBIDAS WILSON LTDA.</td>
           <td>22.156.465/00001-23</td>
+          <td>BEBIDAS WILSON LTDA.</td>
           <td>(15)3211-1234</td>
           <td style="color: green">Ativo</td>
-          <td><a href="/pellicanos/html/editar-fornecedor.php"><span class="glyphicon glyphicon-edit" aria-hidden="true" title="editar"></span></a> <span class="glyphicon glyphicon-trash" aria-hidden="true" title="excluir"></span></td>
         </tr>
         <tr>
           <td><input type="checkbox"></td>
-          <td>111</td>
-          <td>SOROCABA REFRESCOS</td>
           <td>01.252.335/0001-70</td>
+          <td>SOROCABA REFRESCOS</td>
           <td>(15)3211-1234</td>
           <td style="color: green">Ativo</td>
-          <td><span class="glyphicon glyphicon-edit" aria-hidden="true" title="editar"></span> <span class="glyphicon glyphicon-trash" aria-hidden="true" title="excluir"></span></td>
         </tr>
         <tr>
           <td><input type="checkbox"></td>
-          <td>132</td>
-          <td>OPPA ALIMENTOS LTDA.</td>
           <td>49.925.225/0001-48</td>
+          <td>OPPA ALIMENTOS LTDA.</td>
           <td>(15)3211-1234</td>
           <td style="color: green">Ativo</td>
-          <td><span class="glyphicon glyphicon-edit" aria-hidden="true" title="editar"></span> <span class="glyphicon glyphicon-trash" aria-hidden="true" title="excluir"></span></td>
         </tr>
         <tr>
           <td><input type="checkbox"></td>
-          <td>556</td>
-          <td>CEREALISTA SÃO JOÃO LTDA</td>
           <td>23.152.0001-95</td>
+          <td>CEREALISTA SÃO JOÃO LTDA</td>
           <td>(14)3244-0987</td>
           <td style="color: red">Inativo</td>
-          <td><span class="glyphicon glyphicon-edit" aria-hidden="true" title="editar"></span> <span class="glyphicon glyphicon-trash" aria-hidden="true" title="excluir"></span></td>
         </tr>
       </table>
 
