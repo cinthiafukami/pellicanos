@@ -19,7 +19,6 @@
 
           <input type="" class="form-control" id="" placeholder="Pesquisar por CNPJ"><button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
 
-          <button type="submit" class="btn btn-default" style="float: right" ><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Gerar relatório</button>
         </form>
 
         <br>
