@@ -65,7 +65,35 @@ header img{
 }
  
 .header-menu div:hover{
-	background: #666
+	background: #000
+}
+
+.header-menu .user ul{
+	position: absolute;
+	top: 40px;
+	right: 0;
+	background: #23282D;
+	width: 156px;
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	z-index: 100;
+	display: none;
+}
+
+.header-menu .user ul li{
+	padding: 10px 20px;
+    border-bottom: 1px solid #333;
+    text-decoration: none;
+    color: #fff
+}
+
+.header-menu .user:hover ul{
+	display: block
+}
+
+.header-menu .user ul li:hover{
+	background: #000;
 }
 
 .alertas a{
