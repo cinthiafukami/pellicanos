@@ -81,8 +81,6 @@ header img{
 	padding-right: 0;
 	color: #fff;
 	height: 100vh;
-
-
 }
 
 .menu-principal{
@@ -107,6 +105,23 @@ header img{
 .menu-principal li:hover{
 	background: #000
 }
+
+.menu-principal li ul{
+	position: absolute;
+    left: 238px;
+    background: #23282D;
+    width: 200px;
+    margin: 0;
+    margin-top: -32px;
+    padding: 0;
+    display: none;
+    z-index: 100;
+}
+
+.menu-principal li:hover ul{
+	display: block;
+}
+
 
 .conteudo{
 	padding: 0 25px 0 15px;
