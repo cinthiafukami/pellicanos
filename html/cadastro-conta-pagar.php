@@ -85,19 +85,26 @@
           </div><br><br>
           <div class="row">
             <h4><b>Agendamento</b></h4><hr>
-            <div class="col-sm-4">
+            <div class="col-sm-3">
             <br>
               <label for=""><input type="checkbox"> Agendar Pagamento</label>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-3">
               <label for="">Agendamento para</label>
-              <select name="" id="" class="form-control" disabled="">
-                <option value="">15/11/2015</option>
+              <input type="text" placeholder="dd/mm/aaaa" class="form-control">
+            </div>
+            <div class="col-sm-3">
+              <label for="">Banco/agência/conta</label>
+              <select name="" id="" class="form-control">
+                <option value="">Selecionar</option>
               </select>
             </div>
           </div><br>
           <div class="row">
             <h4><b>Pagamento</b></h4><hr>
+            <div class="col-sm-12">
+              <label for=""><input type="checkbox" name="" id=""> Pago</label> <br><br>
+            </div>
             <div class="col-sm-2">
               <label for="">Data de pagto.</label>
               <input type="text" name="" id="" class="form-control">
@@ -111,8 +118,10 @@
               <input type="text" name="" id="" class="form-control">
             </div>
             <div class="col-sm-3">
-              <label for="">Agência e código do cedente</label>
-              <input type="text" name="" id="" class="form-control">
+              <label for="">Banco/agência/conta</label>
+              <select name="" id="" class="form-control">
+                <option value="">Selecionar</option>
+              </select>
             </div>
             
           </div><br>
@@ -126,13 +135,16 @@
               <label for="">Data para aquisição do desconto</label>
               <input type="text" name="" id="" class="form-control">
             </div>
-            <div class="col-sm-2">
-              <label for="">Nosso núm. da conta</label>
-              <input type="text" name="" id="" class="form-control">
-            </div>
+          
             <div class="col-sm-2">
               <label for="">Valor total pago</label>
               <input type="text" name="" id="" class="form-control">
+            </div>
+            <div class="col-sm-2">
+              <label for="">Parcelas</label>
+              <select name="" id="" class="form-control">
+                <option value="">0</option>
+              </select>
             </div>
           </div>
         </div><br><br>
