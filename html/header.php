@@ -17,7 +17,63 @@
     <header>
       <div class="logo"><img src="img/logo.png" alt=""></div>
       <div class="header-menu">
-        <div class="alertas"><span class="glyphicon glyphicon-bell" aria-hidden="true"></span> Alertas &nbsp;<span class="glyphicon glyphicon-menu-down" style="color: #999; font-size: 10px" aria-hidden="true"></span></div>
+        <div class="alertas">
+          <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> Alertas <span class="badge">10</span> &nbsp;<span class="glyphicon glyphicon-menu-down" style="color: #999; font-size: 10px" aria-hidden="true"></span>
+          <ul>
+            <li style="padding: 0px 15px"><h4><b>Não lidas (10)</b></h4></li>
+            <li>
+              <table class="table table-striped table-hover">
+                <tr>
+                  <th>Código</th>
+                  <th>Descrição</th>
+                  <th>Vencimento</th>
+                  <th>Valor</th>
+                </tr>
+                <tr>
+                  <td>001</td>
+                  <td>  1cx Swift Hamburguer</td>
+                  <td>31/06/2016</td>
+                  <td>R$53,00</td>
+                </tr>
+                <tr>
+                  <td>002</td>
+                  <td>  1cx Swift Hamburguer</td>
+                  <td>31/06/2016</td>
+                  <td>R$53,00</td>
+                </tr>
+                <tr>
+                  <td>003</td>
+                  <td>Água</td>
+                  <td>31/06/2016</td>
+                  <td>R$53,00</td>
+                </tr>
+                <tr>
+                  <td>004</td>
+                  <td>Luz</td>
+                  <td>31/06/2016</td>
+                  <td>R$53,00</td>
+                </tr>
+                <tr>
+                  <td>005</td>
+                  <td>Aluguel</td>
+                  <td>31/06/2016</td>
+                  <td>R$53,00</td>
+                </tr>
+                <tr>
+                  <td>005</td>
+                  <td>Aluguel</td>
+                  <td>31/06/2016</td>
+                  <td>R$53,00</td>
+                </tr>
+              </table>
+            </li>
+            <li style="padding: 10px 15px">
+              <a href="" style="color: #337ab7; text-decoration: underline; float: left;">Emitir relatório de alertas</a>
+              <a href="" style="color: #337ab7; text-decoration: underline; float: right;">Agendar todas as contas</a>
+              <div class="clearfix"></div>
+            </li>
+          </ul>
+        </div>
         <div class="user"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> &nbsp;Administrador &nbsp;<span class="glyphicon glyphicon-menu-down" style="color: #999; font-size: 10px" aria-hidden="true"></span>
         <ul>
           <li>Ver todos os usuários</li>

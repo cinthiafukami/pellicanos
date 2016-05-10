@@ -96,6 +96,30 @@ header img{
 	background: #000;
 }
 
+.header-menu .alertas ul{
+    position: absolute;
+    top: 40px;
+    right: 156px;
+    width: 400px;
+    background: #fff;
+    list-style: none;
+    z-index: 100;
+    padding: 0;
+    border-radius: 8px;
+    color: #333;
+	cursor: auto;
+	display: none;
+	box-shadow: 1px 1px 10px #aeaeae;
+}
+
+.header-menu .alertas ul table{
+	margin: 0;
+}
+
+.header-menu .alertas:hover ul{
+	display: block
+}
+
 .alertas a{
 	color: #fff;
 }
